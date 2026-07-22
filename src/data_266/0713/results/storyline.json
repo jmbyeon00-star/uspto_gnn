@@ -1,0 +1,38 @@
+{
+  "summary": "Patent 8531118 is predicted to sue D579144 with 54.2% probability.",
+  "main_reason": "GNNExplainer identified 3 critical citation edges between patents, suggesting strong citation similarity.",
+  "secondary_reason": "",
+  "counterfactual_result": "Removing all owner edges drops P(sue) from 0.542 to 0.501 (Δ=-0.041), confirming owner as the most causal factor.",
+  "final_conclusion": "✅ No litigation predicted (54.2% confidence=low). The strongest evidence is the owner relationship between 8531118 (LYNK LABS) and D579144 (JUNO MANUFACTURING). Evidence path length: 3 hops (score=2.719).",
+  "cards": [
+    {
+      "step": 1,
+      "title": "Prediction",
+      "icon": "⚖️",
+      "value": "54.2%",
+      "text": "P(sue) = **0.5418** — below decision threshold (0.65). Confidence: low."
+    },
+    {
+      "step": 2,
+      "title": "Evidence",
+      "icon": "🔍",
+      "value": "3 key edges",
+      "text": "GNNExplainer identified 3 critical citation edges between patents, suggesting strong citation similarity."
+    },
+    {
+      "step": 3,
+      "title": "Counterfactual",
+      "icon": "🔄",
+      "value": "Δ=-0.041",
+      "text": "Removing all owner edges drops P(sue) from 0.542 to 0.501 (Δ=-0.041), confirming owner as the most causal factor."
+    },
+    {
+      "step": 4,
+      "title": "Conclusion",
+      "icon": "✅",
+      "value": null,
+      "text": "✅ No litigation predicted (54.2% confidence=low). The strongest evidence is the owner relationship between 8531118 (LYNK LABS) and D579144 (JUNO MANUFACTURING). Evidence path length: 3 hops (score=2.719)."
+    }
+  ],
+  "created_at": "2026-07-13T15:13:20"
+}

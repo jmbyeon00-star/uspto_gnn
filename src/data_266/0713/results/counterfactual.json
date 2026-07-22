@@ -1,0 +1,136 @@
+{
+  "base_probability": 0.5418,
+  "by_type": {
+    "citation": {
+      "removed_count": 0,
+      "before": 0.5418,
+      "after": 0.5418,
+      "delta": 0.0
+    },
+    "owner": {
+      "removed_count": 5,
+      "before": 0.5418,
+      "after": 0.5006,
+      "delta": -0.0413
+    },
+    "ipc": {
+      "removed_count": 7,
+      "before": 0.5418,
+      "after": 0.5165,
+      "delta": -0.0253
+    },
+    "litigation": {
+      "removed_count": 8,
+      "before": 0.5418,
+      "after": 0.576,
+      "delta": 0.0341
+    }
+  },
+  "by_edge": [
+    {
+      "rank": 1,
+      "edge_id": "e7",
+      "source": "pat_1304",
+      "target": "pat_1247",
+      "source_label": "D579144",
+      "target_label": "8841855",
+      "relation": "litigation",
+      "before": 0.5418,
+      "after": 0.5221,
+      "delta": -0.0198,
+      "gnn_importance": 0.934
+    },
+    {
+      "rank": 2,
+      "edge_id": "e2",
+      "source": "pat_1247",
+      "target": "pat_1255",
+      "source_label": "8841855",
+      "target_label": "9121597",
+      "relation": "litigation",
+      "before": 0.5418,
+      "after": 0.5394,
+      "delta": -0.0025,
+      "gnn_importance": 0.9209
+    },
+    {
+      "rank": 3,
+      "edge_id": "e1",
+      "source": "pat_1223",
+      "target": "pat_1255",
+      "source_label": "8531118",
+      "target_label": "9121597",
+      "relation": "litigation",
+      "before": 0.5418,
+      "after": 0.5445,
+      "delta": 0.0026,
+      "gnn_importance": 0.0623
+    },
+    {
+      "rank": 4,
+      "edge_id": "e6",
+      "source": "pat_1255",
+      "target": "pat_1247",
+      "source_label": "9121597",
+      "target_label": "8841855",
+      "relation": "litigation",
+      "before": 0.5418,
+      "after": 0.5533,
+      "delta": 0.0115,
+      "gnn_importance": 0.9147
+    },
+    {
+      "rank": 5,
+      "edge_id": "e4",
+      "source": "pat_1126",
+      "target": "pat_1247",
+      "source_label": "7909499",
+      "target_label": "8841855",
+      "relation": "litigation",
+      "before": 0.5418,
+      "after": 0.5537,
+      "delta": 0.0119,
+      "gnn_importance": 0.0796
+    },
+    {
+      "rank": 6,
+      "edge_id": "e3",
+      "source": "pat_1247",
+      "target": "pat_1304",
+      "source_label": "8841855",
+      "target_label": "D579144",
+      "relation": "litigation",
+      "before": 0.5418,
+      "after": 0.5626,
+      "delta": 0.0208,
+      "gnn_importance": 0.9279
+    },
+    {
+      "rank": 7,
+      "edge_id": "e0",
+      "source": "pat_1247",
+      "target": "pat_1126",
+      "source_label": "8841855",
+      "target_label": "7909499",
+      "relation": "litigation",
+      "before": 0.5418,
+      "after": 0.5705,
+      "delta": 0.0287,
+      "gnn_importance": 0.0
+    },
+    {
+      "rank": 8,
+      "edge_id": "e5",
+      "source": "pat_1255",
+      "target": "pat_1223",
+      "source_label": "9121597",
+      "target_label": "8531118",
+      "relation": "litigation",
+      "before": 0.5418,
+      "after": 0.6255,
+      "delta": 0.0837,
+      "gnn_importance": 0.9033
+    }
+  ],
+  "created_at": "2026-07-13T15:13:20"
+}

@@ -1,0 +1,40 @@
+{
+  "path": [
+    "pat_1223",
+    "pat_1255",
+    "pat_1247",
+    "pat_1304"
+  ],
+  "path_labels": [
+    "8531118",
+    "9121597",
+    "8841855",
+    "D579144"
+  ],
+  "score": 2.7191,
+  "hops": 3,
+  "edges": [
+    {
+      "source": "pat_1255",
+      "target": "pat_1223",
+      "relation": "litigation",
+      "importance": 0.9671,
+      "attention": 1.0
+    },
+    {
+      "source": "pat_1247",
+      "target": "pat_1255",
+      "relation": "litigation",
+      "importance": 0.986,
+      "attention": 0.4915
+    },
+    {
+      "source": "pat_1247",
+      "target": "pat_1304",
+      "relation": "litigation",
+      "importance": 0.9935,
+      "attention": 1.0
+    }
+  ],
+  "created_at": "2026-07-13T15:13:20"
+}

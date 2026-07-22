@@ -1,0 +1,839 @@
+{
+  "layer_avg": {
+    "layer1": 0.625,
+    "layer2": 0.625,
+    "layer3": 0.625,
+    "layer4": 0.625
+  },
+  "layers": {
+    "layer1": [
+      {
+        "edge_id": "e0",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e1",
+        "attention": 0.5,
+        "normalized_attention": 0.5
+      },
+      {
+        "edge_id": "e2",
+        "attention": 0.5,
+        "normalized_attention": 0.5
+      },
+      {
+        "edge_id": "e3",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e4",
+        "attention": 0.3311,
+        "normalized_attention": 0.3311
+      },
+      {
+        "edge_id": "e5",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e6",
+        "attention": 0.3416,
+        "normalized_attention": 0.3416
+      },
+      {
+        "edge_id": "e7",
+        "attention": 0.3273,
+        "normalized_attention": 0.3273
+      },
+      {
+        "edge_id": "e8",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e9",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e10",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e11",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e12",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e13",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e14",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e15",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e16",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e17",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e18",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e19",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_1",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_2",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_3",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_4",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_5",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_6",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_7",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_8",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_9",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_10",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_11",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_12",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_13",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_14",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_15",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_16",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_17",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_18",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_19",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_20",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_gt",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      }
+    ],
+    "layer2": [
+      {
+        "edge_id": "e0",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e1",
+        "attention": 0.501,
+        "normalized_attention": 0.501
+      },
+      {
+        "edge_id": "e2",
+        "attention": 0.499,
+        "normalized_attention": 0.499
+      },
+      {
+        "edge_id": "e3",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e4",
+        "attention": 0.294,
+        "normalized_attention": 0.294
+      },
+      {
+        "edge_id": "e5",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e6",
+        "attention": 0.333,
+        "normalized_attention": 0.333
+      },
+      {
+        "edge_id": "e7",
+        "attention": 0.3729,
+        "normalized_attention": 0.3729
+      },
+      {
+        "edge_id": "e8",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e9",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e10",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e11",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e12",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e13",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e14",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e15",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e16",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e17",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e18",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e19",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_1",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_2",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_3",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_4",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_5",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_6",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_7",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_8",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_9",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_10",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_11",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_12",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_13",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_14",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_15",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_16",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_17",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_18",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_19",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_20",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_gt",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      }
+    ],
+    "layer3": [
+      {
+        "edge_id": "e0",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e1",
+        "attention": 0.5003,
+        "normalized_attention": 0.5003
+      },
+      {
+        "edge_id": "e2",
+        "attention": 0.4997,
+        "normalized_attention": 0.4997
+      },
+      {
+        "edge_id": "e3",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e4",
+        "attention": 0.3415,
+        "normalized_attention": 0.3415
+      },
+      {
+        "edge_id": "e5",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e6",
+        "attention": 0.3066,
+        "normalized_attention": 0.3066
+      },
+      {
+        "edge_id": "e7",
+        "attention": 0.3519,
+        "normalized_attention": 0.3519
+      },
+      {
+        "edge_id": "e8",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e9",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e10",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e11",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e12",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e13",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e14",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e15",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e16",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e17",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e18",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e19",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_1",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_2",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_3",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_4",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_5",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_6",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_7",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_8",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_9",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_10",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_11",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_12",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_13",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_14",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_15",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_16",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_17",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_18",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_19",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_20",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_gt",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      }
+    ],
+    "layer4": [
+      {
+        "edge_id": "e0",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e1",
+        "attention": 0.5327,
+        "normalized_attention": 0.5327
+      },
+      {
+        "edge_id": "e2",
+        "attention": 0.4673,
+        "normalized_attention": 0.4673
+      },
+      {
+        "edge_id": "e3",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e4",
+        "attention": 0.3222,
+        "normalized_attention": 0.3222
+      },
+      {
+        "edge_id": "e5",
+        "attention": 1.0,
+        "normalized_attention": 1.0
+      },
+      {
+        "edge_id": "e6",
+        "attention": 0.3731,
+        "normalized_attention": 0.3731
+      },
+      {
+        "edge_id": "e7",
+        "attention": 0.3047,
+        "normalized_attention": 0.3047
+      },
+      {
+        "edge_id": "e8",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e9",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e10",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e11",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e12",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e13",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e14",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e15",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e16",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e17",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e18",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "e19",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_1",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_2",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_3",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_4",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_5",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_6",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_7",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_8",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_9",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_10",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_11",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_12",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_13",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_14",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_15",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_16",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_17",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_18",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_19",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_20",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      },
+      {
+        "edge_id": "pred_gt",
+        "attention": 0.0,
+        "normalized_attention": 0.0
+      }
+    ]
+  },
+  "created_at": "2026-07-13T15:59:47"
+}

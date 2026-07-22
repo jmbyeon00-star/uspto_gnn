@@ -1,0 +1,26 @@
+{
+  "model": "SimpleCatHeteroGAT",
+  "dataset": "USPTO Patent Litigation",
+  "hidden_dim": 128,
+  "output_dim": 64,
+  "heads": [
+    8,
+    4,
+    4,
+    2
+  ],
+  "layers": 4,
+  "node_types": [
+    "patent",
+    "company",
+    "ipc"
+  ],
+  "edge_types": 8,
+  "n_patents": 1331,
+  "n_companies": 1062,
+  "n_ipc": 218,
+  "pair": 0,
+  "khop": 2,
+  "topk": 20,
+  "created_at": "2026-07-13T15:59:47"
+}

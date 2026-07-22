@@ -1,0 +1,715 @@
+{
+  "meta": {
+    "src_id": "pat_1223",
+    "dst_id": "pat_1304",
+    "src_label": "8531118",
+    "dst_label": "D579144",
+    "p_base": 0.5418,
+    "k_hop": 2,
+    "top_k_cf": 10,
+    "n_nodes": 13,
+    "n_edges": 20,
+    "pair_idx": 0,
+    "query_patent": "8531118",
+    "is_new_patent": false,
+    "src_owner_companies": [
+      "LYNK LABS"
+    ],
+    "src_ipc_codes": [
+      "H05B"
+    ],
+    "src_citations": 0,
+    "attn_layer_avg": {
+      "layer0": 0.625,
+      "layer1": 0.625,
+      "layer2": 0.625,
+      "layer3": 0.625
+    }
+  },
+  "nodes": [
+    {
+      "id": "pat_1126",
+      "type": "patent",
+      "label": "7909499",
+      "short_label": "7909499",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.9946621060371399,
+      "hop_from_src": 3,
+      "hop_from_dst": 2,
+      "min_hop": 2,
+      "x": 141.22264955196536,
+      "y": 276.96150430848576
+    },
+    {
+      "id": "pat_1223",
+      "type": "patent",
+      "label": "8531118",
+      "short_label": "8531118",
+      "is_src": true,
+      "is_dst": false,
+      "importance": 0.9999998807907104,
+      "hop_from_src": 0,
+      "hop_from_dst": 3,
+      "min_hop": 0,
+      "x": -200.30797919529198,
+      "y": -45.36911497515235
+    },
+    {
+      "id": "pat_1247",
+      "type": "patent",
+      "label": "8841855",
+      "short_label": "8841855",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.9765169620513916,
+      "hop_from_src": 2,
+      "hop_from_dst": 1,
+      "min_hop": 1,
+      "x": -65.86956747565499,
+      "y": 149.71373201494137
+    },
+    {
+     
+      "id": "co_500",
+      "type": "company",
+      "label": "JUNO MANUFACTURING",
+      "short_label": "JUNO MANUFACTU",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.2,
+      "hop_from_src": 3,
+      "hop_from_dst": 3,
+      "min_hop": 3,
+      "x": 147.16483920461548,
+      "y": 500.0
+    },
+    {
+      "id": "co_565",
+      "type": "company",
+      "label": "LYNK LABS",
+      "short_label": "LYNK LABS",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.2,
+      "hop_from_src": 3,
+      "hop_from_dst": 3,
+      "min_hop": 3,
+      "x": -310.5360322830752,
+      "y": 64.99766983509356
+    },
+    {
+      "id": "co_836",
+      "type": "company",
+      "label": "SCHNEIDER ELECTRIC U",
+      "short_label": "SCHNEIDER ELEC",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.2,
+      "hop_from_src": 3,
+      "hop_from_dst": 3,
+      "min_hop": 3,
+      "x": 183.0998063835821,
+      "y": -384.3116054048423
+    },
+    {
+      "id": "ipc_189",
+      "type": "ipc",
+      "label": "H01R",
+      "short_label": "H01R",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.15,
+      "hop_from_src": 3,
+      "hop_from_dst": 3,
+      "min_hop": 3,
+      "x": 181.86488416278178,
+      "y": 48.18746434082769
+    },
+    {
+      "id": "ipc_136",
+      "type": "ipc",
+      "label": "F21Y",
+      "short_label": "F21Y",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.15,
+      "hop_from_src": 3,
+      "hop_from_dst": 3,
+      "min_hop": 3,
+      "x": -141.3535617656953,
+      "y": -357.8556499128471
+    },
+    {
+      "id": "ipc_133",
+      "type": "ipc",
+      "label": "F21S",
+      "short_label": "F21S",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.15,
+      "hop_from_src": 3,
+      "hop_from_dst": 3,
+      "min_hop": 3,
+      "x": 19.06361321503017,
+      "y": -432.7710567114455
+    },
+    {
+      "id": "ipc_214",
+      "type": "ipc",
+      "label": "H05B",
+      "short_label": "H05B",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.15,
+      "hop_from_src": 3,
+      "hop_from_dst": 3,
+      "min_hop": 3,
+      "x": -251.35204045106642,
+      "y": 165.89922477330038
+    },
+    {
+      "id": "ipc_134",
+      "type": "ipc",
+      "label": "F21V",
+      "short_label": "F21V",
+      "is_src": false,
+      "is_dst": false,
+      "importance": 0.15,
+      "hop_from_src": 3,
+      "hop_from_dst": 3,
+      "min_hop": 3,
+      "x": 281.20399340324525,
+      "y": -235.70350953343274
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0",
+      "src": "pat_1247",
+      "dst": "pat_1126",
+      "type": "sued",
+      "gnn_mask": 0.0,
+      "rank": 8,
+      "is_top_k": true,
+      "delta_p": 0.0287,
+      "attention": {
+        "layer0": 1.0,
+        "layer1": 1.0,
+        "layer2": 1.0,
+        "layer3": 1.0
+      }
+    },
+    {
+      "id": "e_1",
+      "src": "pat_1223",
+      "dst": "pat_1255",
+      "type": "sued",
+      "gnn_mask": 0.06952451169490814,
+      "rank": 5,
+      "is_top_k": true,
+      "delta_p": 0.0026,
+      "attention": {
+        "layer0": 0.5,
+        "layer1": 0.501,
+        "layer2": 0.5003,
+        "layer3": 0.5327
+      }
+    },
+    {
+      "id": "e_2",
+      "src": "pat_1247",
+      "dst": "pat_1255",
+      "type": "sued",
+      "gnn_mask": 0.07395575195550919,
+      "rank": 3,
+      "is_top_k": true,
+      "delta_p": -0.0025,
+      "attention": {
+        "layer0": 0.5,
+        "layer1": 0.499,
+        "layer2": 0.4997,
+        "layer3": 0.4673
+      }
+    },
+    {
+      "id": "e_3",
+      "src": "pat_1247",
+      "dst": "pat_1304",
+      "type": "sued",
+      "gnn_mask": 0.9378900527954102,
+      "rank": 1,
+      "is_top_k": true,
+      "delta_p": 0.0208,
+      "attention": {
+        "layer0": 1.0,
+        "layer1": 1.0,
+        "layer2": 1.0,
+        "layer3": 1.0
+      }
+    },
+    {
+      "id": "e_4",
+      "src": "pat_1126",
+      "dst": "pat_1247",
+      "type": "sued_by",
+      "gnn_mask": 0.9324548244476318,
+      "rank": 2,
+      "is_top_k": true,
+      "delta_p": 0.0119,
+      "attention": {
+        "layer0": 0.3311,
+        "layer1": 0.294,
+        "layer2": 0.3415,
+        "layer3": 0.3222
+      }
+    },
+    {
+      "id": "e_5",
+      "src": "pat_1255",
+      "dst": "pat_1223",
+      "type": "sued_by",
+      "gnn_mask": 0.0646921694278717,
+      "rank": 6,
+      "is_top_k": true,
+      "delta_p": 0.0837,
+      "attention": {
+        "layer0": 1.0,
+        "layer1": 1.0,
+        "layer2": 1.0,
+        "layer3": 1.0
+      }
+    },
+    {
+      "id": "e_6",
+      "src": "pat_1255",
+      "dst": "pat_1247",
+      "type": "sued_by",
+      "gnn_mask": 0.0530753955245018,
+      "rank": 7,
+      "is_top_k": true,
+      "delta_p": 0.0115,
+      "attention": {
+        "layer0": 0.3416,
+        "layer1": 0.333,
+        "layer2": 0.3066,
+        "layer3": 0.3731
+      }
+    },
+    {
+      "id": "e_7",
+      "src": "pat_1304",
+      "dst": "pat_1247",
+      "type": "sued_by",
+      "gnn_mask": 0.07257374376058578,
+      "rank": 4,
+      "is_top_k": true,
+      "delta_p": -0.0198,
+      "attention": {
+        "layer0": 0.3273,
+        "layer1": 0.3729,
+        "layer2": 0.3519,
+        "layer3": 0.3047
+      }
+    },
+    {
+      "src": "pat_1304",
+      "dst": "co_500",
+      "type": "owned_by",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eco_0"
+    },
+    {
+      "src": "pat_1247",
+      "dst": "co_565",
+      "type": "owned_by",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eco_1"
+    },
+    {
+      "src": "pat_1255",
+      "dst": "co_836",
+      "type": "owned_by",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eco_2"
+    },
+    {
+      "src": "pat_1223",
+      "dst": "co_565",
+      "type": "owned_by",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eco_3"
+    },
+    {
+      "src": "pat_1126",
+      "dst": "co_500",
+      "type": "owned_by",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eco_4"
+    },
+    {
+      "src": "pat_1126",
+      "dst": "ipc_189",
+      "type": "has_ipc",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eipc_0"
+    },
+    {
+      "src": "pat_1255",
+      "dst": "ipc_136",
+      "type": "has_ipc",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eipc_1"
+    },
+    {
+      "src": "pat_1255",
+      "dst": "ipc_133",
+      "type": "has_ipc",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eipc_2"
+    },
+    {
+      "src": "pat_1247",
+      "dst": "ipc_214",
+      "type": "has_ipc",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eipc_3"
+    },
+    {
+      "src": "pat_1255",
+      "dst": "ipc_134",
+      "type": "has_ipc",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eipc_4"
+    },
+    {
+      "src": "pat_1255",
+      "dst": "ipc_189",
+      "type": "has_ipc",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eipc_5"
+    },
+    {
+      "src": "pat_1223",
+      "dst": "ipc_214",
+      "type": "has_ipc",
+      "gnn_mask": 0.0,
+      "rank": null,
+      "is_top_k": false,
+      "delta_p": null,
+      "attention": {},
+      "id": "eipc_6"
+    }
+  ],
+  "evidence_path": {
+    "nodes": [
+      "pat_1223",
+      "pat_1255",
+      "pat_1247",
+      "pat_1304"
+    ],
+    "edges": [
+      {
+        "src": "pat_1223",
+        "dst": "pat_1255",
+        "type": "sued",
+        "gnn_mask": 0.0695,
+        "attn": 0.5003
+      },
+      {
+        "src": "pat_1255",
+        "dst": "pat_1247",
+        "type": "sued_by",
+        "gnn_mask": 0.0531,
+        "attn": 0.3066
+      },
+      {
+        "src": "pat_1247",
+        "dst": "pat_1304",
+        "type": "sued",
+        "gnn_mask": 0.9379,
+        "attn": 1.0
+      }
+    ],
+    "score": 0.6023
+  },
+  "agreement": [
+    {
+      "rank": 1,
+      "src_label": "8841855",
+      "dst_label": "D579144",
+      "edge_type": "sued",
+      "gnn_importance": 0.9379,
+      "delta_p": 0.0208,
+      "agree": false
+    },
+    {
+      "rank": 2,
+      "src_label": "7909499",
+      "dst_label": "8841855",
+      "edge_type": "sued_by",
+      "gnn_importance": 0.9325,
+      "delta_p": 0.0119,
+      "agree": false
+    },
+    {
+      "rank": 3,
+      "src_label": "8841855",
+      "dst_label": "9121597",
+      "edge_type": "sued",
+      "gnn_importance": 0.074,
+      "delta_p": -0.0025,
+      "agree": false
+    },
+    {
+      "rank": 4,
+      "src_label": "D579144",
+      "dst_label": "8841855",
+      "edge_type": "sued_by",
+      "gnn_importance": 0.0726,
+      "delta_p": -0.0198,
+      "agree": false
+    },
+    {
+      "rank": 5,
+      "src_label": "8531118",
+      "dst_label": "9121597",
+      "edge_type": "sued",
+      "gnn_importance": 0.0695,
+      "delta_p": 0.0026,
+      "agree": false
+    },
+    {
+      "rank": 6,
+      "src_label": "9121597",
+      "dst_label": "8531118",
+      "edge_type": "sued_by",
+      "gnn_importance": 0.0647,
+      "delta_p": 0.0837,
+      "agree": false
+    },
+    {
+      "rank": 7,
+      "src_label": "9121597",
+      "dst_label": "8841855",
+      "edge_type": "sued_by",
+      "gnn_importance": 0.0531,
+      "delta_p": 0.0115,
+      "agree": false
+    },
+    {
+      "rank": 8,
+      "src_label": "8841855",
+      "dst_label": "7909499",
+      "edge_type": "sued",
+      "gnn_importance": 0.0,
+      "delta_p": 0.0287,
+      "agree": false
+    }
+  ],
+  "storyline": [
+    {
+      "title": "① Intrinsic: Native Attention",
+      "ko": "SimpleCatHeteroGAT의 4개 레이어 각각에서 attention을 추출했습니다. Top-K 엣지의 Layer 2 평균 attention = 0.625.",
+      "en": "Extracted native GAT attention across all 4 layers. Avg Layer 2 attention on top-K edges = 0.625."
+    },
+    {
+      "title": "② Post-hoc: GNNExplainer",
+      "ko": "모델은 sued 관계를 가장 중요한 단서로 학습했습니다. 상위 10개 엣지 마스크가 그래프에 굵은 선으로 표시됩니다.",
+      "en": "The model relied most on sued edges. Top-10 edge masks shown as thick lines."
+    },
+    {
+      "title": "③ Perturbation: Counterfactual",
+      "ko": "**has_ipc** 관계 제거 시 P(sue) 0.5418 → 0.4644 (Δ = -0.0774).",
+      "en": "Removing **has_ipc** edges drops P(sue) from 0.5418 to 0.4644 (Δ = -0.0774)."
+    },
+    {
+      "title": "④ Evidence Path",
+      "ko": "가장 중요한 추론 경로: 8531118 → 9121597 → 8841855 → D579144",
+      "en": "Highest-importance inference path: 8531118 → 9121597 → 8841855 → D579144"
+    },
+    {
+      "title": "⑤ Conclusion",
+      "ko": "이 소송 예측은 세 가지 독립적 근거로 지지됩니다: (1) GAT attention이 sued 관계를 일관되게 강조, (2) GNNExplainer가 동일 엣지를 top-10에 포함, (3) 해당 엣지 제거 시 P(sue)가 -0.0198 변화. 세 방법이 일치할수록 설명의 신뢰도가 높아집니다.",
+      "en": "This lawsuit prediction is supported by three independent sources: (1) GAT attention consistently highlights sued relations, (2) GNNExplainer ranks the same edges in top-10, (3) removing those edges shifts P(sue) by -0.0198. Higher agreement across methods → stronger evidence."
+    }
+  ],
+  "counterfactual": {
+    "by_type": {
+      "cites": {
+        "p_after": 0.5443,
+        "delta_p": 0.0025
+      },
+      "cited_by": {
+        "p_after": 0.5286,
+        "delta_p": -0.0133
+      },
+      "has_ipc": {
+        "p_after": 0.4644,
+        "delta_p": -0.0774
+      },
+      "rev_has_ipc": {
+        "p_after": 0.677,
+        "delta_p": 0.1351
+      },
+      "owns": {
+        "p_after": 0.5197,
+        "delta_p": -0.0221
+      },
+      "owned_by": {
+        "p_after": 0.5749,
+        "delta_p": 0.033
+      },
+      "sued": {
+        "p_after": 0.5911,
+        "delta_p": 0.0492
+      },
+      "sued_by": {
+        "p_after": 0.6669,
+        "delta_p": 0.125
+      }
+    },
+    "by_edge": [
+      {
+        "rank": 1,
+        "edge_id": "e_3",
+        "src_id": "pat_1247",
+        "dst_id": "pat_1304",
+        "src_label": "8841855",
+        "dst_label": "D579144",
+        "edge_type": "sued",
+        "gnn_mask": 0.9379,
+        "p_after": 0.5626,
+        "delta_p": 0.0208
+      },
+      {
+        "rank": 2,
+        "edge_id": "e_4",
+        "src_id": "pat_1126",
+        "dst_id": "pat_1247",
+        "src_label": "7909499",
+        "dst_label": "8841855",
+        "edge_type": "sued_by",
+        "gnn_mask": 0.9325,
+        "p_after": 0.5537,
+        "delta_p": 0.0119
+      },
+      {
+        "rank": 3,
+        "edge_id": "e_2",
+        "src_id": "pat_1247",
+        "dst_id": "pat_1255",
+        "src_label": "8841855",
+        "dst_label": "9121597",
+        "edge_type": "sued",
+        "gnn_mask": 0.074,
+        "p_after": 0.5394,
+        "delta_p": -0.0025
+      },
+      {
+        "rank": 4,
+        "edge_id": "e_7",
+        "src_id": "pat_1304",
+        "dst_id": "pat_1247",
+        "src_label": "D579144",
+        "dst_label": "8841855",
+        "edge_type": "sued_by",
+        "gnn_mask": 0.0726,
+        "p_after": 0.5221,
+        "delta_p": -0.0198
+      },
+      {
+        "rank": 5,
+        "edge_id": "e_1",
+        "src_id": "pat_1223",
+        "dst_id": "pat_1255",
+        "src_label": "8531118",
+        "dst_label": "9121597",
+        "edge_type": "sued",
+        "gnn_mask": 0.0695,
+        "p_after": 0.5445,
+        "delta_p": 0.0026
+      },
+      {
+        "rank": 6,
+        "edge_id": "e_5",
+        "src_id": "pat_1255",
+        "dst_id": "pat_1223",
+        "src_label": "9121597",
+        "dst_label": "8531118",
+        "edge_type": "sued_by",
+        "gnn_mask": 0.0647,
+        "p_after": 0.6255,
+        "delta_p": 0.0837
+      },
+      {
+        "rank": 7,
+        "edge_id": "e_6",
+        "src_id": "pat_1255",
+        "dst_id": "pat_1247",
+        "src_label": "9121597",
+        "dst_label": "8841855",
+        "edge_type": "sued_by",
+        "gnn_mask": 0.0531,
+        "p_after": 0.5533,
+        "delta_p": 0.0115
+      },
+      {
+        "rank": 8,
+        "edge_id": "e_0",
+        "src_id": "pat_1247",
+        "dst_id": "pat_1126",
+        "src_label": "8841855",
+        "dst_label": "7909499",
+        "edge_type": "sued",
+        "gnn_mask": 0.0,
+        "p_after": 0.5705,
+        "delta_p": 0.0287
+      }
+    ]
+  }
+}

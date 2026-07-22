@@ -1,0 +1,20 @@
+# 대용량 데이터파일
+*.parquet
+*.pkl
+*.pt
+*.csv
+*.tsv
+*.zip
+
+# 체크포인트 디렉토리
+소송예측모델\ 개발/data_gnn/
+소송예측모델\ 개발/GNN_CKPT_DIR/
+src/*.csv
+src/*.tsv
+src/*.zip
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

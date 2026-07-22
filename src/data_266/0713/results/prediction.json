@@ -1,0 +1,189 @@
+{
+  "query_patent": "8531118",
+  "query_patent_id": "pat_1223",
+  "target_patent": "D579144",
+  "target_patent_id": "pat_1304",
+  "plaintiff_company": "LYNK LABS",
+  "defendant_company": "JUNO MANUFACTURING",
+  "probability": 0.541848,
+  "threshold": 0.65,
+  "prediction": "no_sue",
+  "ground_truth": "positive",
+  "correct": false,
+  "rank": 415,
+  "total_patents": 1331,
+  "rank_percentile": 68.8,
+  "confidence": "low",
+  "top_k": [
+    {
+      "rank": 1,
+      "patent_id": "pat_1165",
+      "patent_label": "8115457",
+      "company": "POWER INTEGRATIONS",
+      "probability": 0.7601,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 2,
+      "patent_id": "pat_463",
+      "patent_label": "6212079",
+      "company": "POWER INTEGRATIONS",
+      "probability": 0.7586,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 3,
+      "patent_id": "pat_1327",
+      "patent_label": "RE41908",
+      "company": "SEMICONDUCTOR COMPONENTS INDUSTRIES",
+      "probability": 0.7554,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 4,
+      "patent_id": "pat_1330",
+      "patent_label": "RE45862",
+      "company": "SEMICONDUCTOR COMPONENTS INDUSTRIES",
+      "probability": 0.7547,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 5,
+      "patent_id": "pat_1323",
+      "patent_label": "RE39933",
+      "company": "SEMICONDUCTOR COMPONENTS INDUSTRIES",
+      "probability": 0.7521,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 6,
+      "patent_id": "pat_667",
+      "patent_label": "6597221",
+      "company": "SEMICONDUCTOR COMPONENTS INDUSTRIES",
+      "probability": 0.7504,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 7,
+      "patent_id": "pat_575",
+      "patent_label": "6429709",
+      "company": "SEMICONDUCTOR COMPONENTS INDUSTRIES",
+      "probability": 0.7469,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 8,
+      "patent_id": "pat_529",
+      "patent_label": "6333624",
+      "company": "SEMICONDUCTOR COMPONENTS INDUSTRIES",
+      "probability": 0.7385,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 9,
+      "patent_id": "pat_566",
+      "patent_label": "6414471",
+      "company": "POWER INTEGRATIONS",
+      "probability": 0.713,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 10,
+      "patent_id": "pat_517",
+      "patent_label": "6297623",
+      "company": "POWER INTEGRATIONS",
+      "probability": 0.712,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 11,
+      "patent_id": "pat_1247",
+      "patent_label": "8841855",
+      "company": "LYNK LABS",
+      "probability": 0.705,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 12,
+      "patent_id": "pat_942",
+      "patent_label": "7239119",
+      "company": "POWER INTEGRATIONS",
+      "probability": 0.6996,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 13,
+      "patent_id": "pat_1024",
+      "patent_label": "7538533",
+      "company": "POWER INTEGRATIONS",
+      "probability": 0.6926,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 14,
+      "patent_id": "pat_467",
+      "patent_label": "6225187",
+      "company": "NANYA TECHNOLOGY",
+      "probability": 0.6925,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 15,
+      "patent_id": "pat_755",
+      "patent_label": "6790765",
+      "company": "NANYA TECHNOLOGY",
+      "probability": 0.6916,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 16,
+      "patent_id": "pat_573",
+      "patent_label": "6426271",
+      "company": "NANYA TECHNOLOGY",
+      "probability": 0.6885,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 17,
+      "patent_id": "pat_42",
+      "patent_label": "4990802",
+      "company": "AGERE SYSTEMS",
+      "probability": 0.6723,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 18,
+      "patent_id": "pat_570",
+      "patent_label": "6424194",
+      "company": "BROADCOM",
+      "probability": 0.6687,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 19,
+      "patent_id": "pat_487",
+      "patent_label": "6249876",
+      "company": "POWER INTEGRATIONS",
+      "probability": 0.6676,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 20,
+      "patent_id": "pat_1000",
+      "patent_label": "7447601",
+      "company": "SEMICONDUCTOR COMPONENTS INDUSTRIES",
+      "probability": 0.6653,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 415,
+      "patent_id": "pat_1304",
+      "patent_label": "D579144",
+      "company": "JUNO MANUFACTURING",
+      "probability": 0.5418,
+      "is_ground_truth": true
+    }
+  ],
+  "main_evidence": "citation",
+  "created_at": "2026-07-13T15:59:47"
+}
