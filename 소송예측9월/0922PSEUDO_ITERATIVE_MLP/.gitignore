@@ -1,0 +1,33 @@
+# 대용량 데이터/임베딩/결과 파일
+*.pkl
+*.npy
+*.parquet
+*.csv
+*.h5
+
+# 실험 결과 디렉토리 (runs 포함)
+runs/
+runs_checkpoint_only/
+runs_distmult_fixed/
+baseline/
+fixed_data/
+checkpoint_only_test/
+1001_pool재생성(ipc+embedding)_1002/
+2012테스트1000개/
+9/
+소송예측10월/
+
+# 내장 git 레포 (서브모듈 아님)
+CurNM/
+
+# 잘못 생성된 파일
+-name
+-o
+
+# 파이썬
+__pycache__/
+*.pyc
+*.pyo
+
+# 주피터 체크포인트
+.ipynb_checkpoints/

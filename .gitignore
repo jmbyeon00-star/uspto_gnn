@@ -1,0 +1,26 @@
+# 데이터 (용량 큰 원본/처리 파일)
+data/
+data_gnn/
+
+# 체크포인트 / 모델 가중치
+*.pt
+*.pth
+*.ckpt
+
+# 대용량 데이터 파일
+*.pkl
+*.npy
+*.parquet
+
+# 주피터 체크포인트
+.ipynb_checkpoints/
+
+# 파이썬
+__pycache__/
+*.pyc
+*.pyo
+
+# 환경
+.env
+*.egg-info/
+PatentsView-Disambiguation/
